@@ -45,5 +45,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux
 
+Finally, I looked up some markdown formatting tricks as I haven't worked with the formatting in a while. Mostly just couldn't remember how to demarcate numbered lists. 
+
+https://www.markdownguide.org/cheat-sheet/
+
+
 
 
