@@ -1,0 +1,49 @@
+In order to accomplish the assignment, I used a linux machine provisioned on gcp. 
+I had to do a bit of research to figure out how to set up the environment, connect and work. 
+deploying a linux server on google compute
+
+https://cloud.google.com/compute/docs/create-linux-vm-instance
+
+Went to equivalent code tab: 
+<results ommitted due to containing credentials> 
+
+
+After creating the VM, I tried checked documentation on advanced settings but didn’t find anything useful. I googled “advanced settings google vm compute engine” 
+
+￼
+
+I then needed to look up how to check the terminal version: 
+https://askubuntu.com/questions/39309/how-do-i-find-the-version-of-bash-i-am-running
+Then I looked up how to pipe apt list to a file 
+I looked at the following source
+https://linuxize.com/post/how-to-use-apt-command/
+Once I ran the command  sudo apt list --installed | grep git to check if git was installed I got this error: 
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+I was interested in this so I went to this source: 
+
+https://askubuntu.com/questions/990823/apt-gives-unstable-cli-interface-warning
+
+Where I learned that “apt is for the terminal and gives beautiful output while apt-get and apt-cache are for scripts and give stable, parsable output.”
+
+I didn’t like the browser SSH client, so I decided to use my native shell environment for ssh. To figure out how to set this up I went to the article below: 
+
+https://cloud.google.com/compute/docs/connect/standard-ssh
+
+Then I had to install glcoud cli for Mac OS 
+
+https://cloud.google.com/sdk/docs/install
+
+I wanted to use curl to download the package so I looked at the curl help by typing curl —help 
+
+https://www.cyberciti.biz/faq/unix-linux-bash-history-display-date-time/
+
+Then I had to connect to github via ssh. I'd done this before but needed a refresher.
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux
+
+
+
